@@ -1,0 +1,145 @@
+#body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(wood.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    background-color: rgb(72, 41, 21);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 45px;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h3 {
+    background-color: rgb(72, 41, 21, 0.8);
+    text-align: center;
+    font-size: 60px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#yes, #no {
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+}
+
+#yes {
+    background-color: green;
+    margin-right: 25px;
+}
+
+#no {
+    background-color: red;
+    margin-left: 25px;
+}
+
+#player-yellow {
+    background-color: gold;
+    width: 300px;
+    display: inline;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#player-red {
+    background-color: red;
+    width: 300px;
+    display: inline;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#current-player {
+    color: red;
+    font-weight: bold;
+    display: inline;
+}
+
+#score-red {
+    display: inline;
+}
+
+#score-yellow {
+    display: inline;
+}
+
+#main-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#container, #play-again {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+#play-again {
+    height: 560px;
+    width: fit-content;
+    color: white;
+    margin: auto;
+    text-align: center;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.player-text {
+    width:400px;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+    box-sizing: border-box;
+}
+
+.red-piece {
+    background-color: red;
+
+}
+
+.yellow-piece {
+    background-color: yellow;
+}

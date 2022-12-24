@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>  
+        <meta charset="UTF-8">
+        <meta name="viewport" content ="width-device-width, initial-scale=1.0">
+        <title>Connect 4</title>
+        
+        <link rel="stylesheet" href="connect4.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <script src="connect4.js"></script>
+    </head>
+    
+    <body id="body">
+        <h1>Connect 4</h1>
+        <h2 id="game-text"><div id="current-player">Red</div>'s Turn</h2>
+        <div id="main-container">
+            <div id="container">
+                <div class="player-text">
+                    <span id="player-red">Red Score: <div id="score-red"></div></span>
+                </div>
+                <div id="board"></div>
+                <div class="player-text">
+                    <span id="player-yellow">Yellow Score: <div id="score-yellow"></div></span>
+                </div>
+            </div>
+            <div id="play-again">
+                <h3>Play again? <br><button id="yes" onClick="window.location.reload()">Yes</button> <button id="no" onClick="document.getElementById('play-again').style.display = 'none';">No</button>
+            </div>
+        </div>
+    </body>
+</html>
